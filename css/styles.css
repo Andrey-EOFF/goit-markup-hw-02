@@ -1,3 +1,52 @@
 body {
-    background-color: aqua;
+    background-color: #b34545; ;
+    color:#757575 ;
 }
+.logo {
+    color:#000000;
+}
+.logo span {
+    color:#2196F3 ;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-nav {
+    color: #212121;
+}  
+
+
+.contact-nav {
+    color: #212121;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* цвет остновного текста #212121 */
+/* вторичный цвет текста  #757575 */
+
+/* хеадер фон background: #FFFFFF; */
+/* основной фон background: #F5F5F5; */
+/* фон команда background: #F5F4FA; */
+/* футер фон background: #2F303A; */
+
+
+
+/* синий цвет кнопки и Веб #2196F3 */
+/* белый #212121 */
+/* текст с прозрачн  color: rgba(255, 255, 255, 0.6); */
+/* цвет остновного текста #212121 */
+
+
