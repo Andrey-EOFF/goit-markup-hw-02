@@ -1,5 +1,5 @@
 body {
-    background-color: #b34545; ;
+    background-color: #FFFFFF ;
     color:#757575 ;
 }
 .logo {
@@ -9,13 +9,9 @@ body {
     color:#2196F3 ;
 }
 
-ul {
-    list-style: none;
-}
-
-.site-nav {
+.site-nav li {
     color: #212121;
-}  
+}
 
 
 .contact-nav {
