@@ -32,7 +32,35 @@ ul {
 .contact-nav :hover {
     color: #2196F3;
 }
+
+/* Герой банер с заголовком */
+
+.hero {
+    background-color: #2F303A;
+}
+.title-hero {
+    color:#FFFFFF;
+}
+.button {
+    color:#FFFFFF;
+    background: #2196F3;
+}
     
+ /* Особливості (ЗАГОЛОВОК h2 прибрати в CSS) */
+
+ .features {
+  background-color: #F5F5F5;
+ }
+
+ .features h2 {
+   
+ }
+
+ .features h3 {
+    color: #212121;
+ }
+
+
 
 
 
