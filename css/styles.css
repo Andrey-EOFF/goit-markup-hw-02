@@ -48,23 +48,41 @@ ul {
     
  /* Особливості (ЗАГОЛОВОК h2 прибрати в CSS) */
 
- .features {
-  background-color: #F5F5F5;
+ .section {
+  background: #F5F5F5;
  }
 
- .features h2 {
-   
- }
-
- .features h3 {
+.section-title {
     color: #212121;
- }
+}
+
+/* чим ми займаємось */
 
 
+/* Наша команда */
 
+.section-team {
+    background-color: #F5F4FA
+}
 
+/* Подвал  */
 
+footer {
+    background-color: #2F303A;
+}
 
+.logo  {
+    color: #FFFFFF;
+}
+.logo span {
+    color: #2196F3;
+}
+.footer-address {
+    color: #FFFFFF;
+}
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 
 
