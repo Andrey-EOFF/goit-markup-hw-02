@@ -1,7 +1,16 @@
+
 body {
-    background-color: #FFFFFF ;
-    color:#757575 ;
+    background-color: #FFFFFF;
+    color: #757575;
 }
+
+ul {
+    list-style: none;
+}
+
+   
+/* Header nav+cont. */
+
 .logo {
     color:#000000;
 }
@@ -9,19 +18,21 @@ body {
     color:#2196F3 ;
 }
 
-.site-nav li {
+.site-nav a {
+   color: #212121;
+}
+
+.contact-nav a{
     color: #212121;
 }
 
-
-.contact-nav {
-    color: #212121;
-
+.site-nav :hover {
+    color: #2196F3;
 }
-
-
-
-
+.contact-nav :hover {
+    color: #2196F3;
+}
+    
 
 
 
