@@ -1,7 +1,12 @@
 
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+}
+
 body {
     background-color: #FFFFFF;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 ul {
@@ -38,7 +43,7 @@ ul {
 .hero {
     background-color: #2F303A;
 }
-.title-hero {
+.hero-title {
     color:#FFFFFF;
 }
 .button {
