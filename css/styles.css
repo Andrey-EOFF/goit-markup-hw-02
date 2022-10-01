@@ -22,14 +22,14 @@ ul {
    color: #212121;
 }
 
-.contact-nav a{
+.contact-nav a {
     color: #212121;
 }
 
-.site-nav :hover {
+.site-nav :hover, .site-nav :focus {
     color: #2196F3;
 }
-.contact-nav :hover {
+.contact-nav :hover, .contact-nav :focus {
     color: #2196F3;
 }
 
