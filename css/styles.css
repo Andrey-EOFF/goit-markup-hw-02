@@ -1,8 +1,7 @@
 /* цвет остновного текста #212121 */
 /* вторичный цвет текста  #757575 */
 
-/* хеадер фон background: #FFFFFF; */
-/* основной фон background: #F5F5F5; */
+/* основной фон background: #FFFFFF; */
 /* фон команда background: #F5F4FA; */
 /* футер фон background: #2F303A; */
 
@@ -16,19 +15,24 @@
 
 
 :root {
+    /* текс */
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-text-color:#2196F3;
     --logo-black-color:#000000;
+    --base-white-color: #FFFFFF;
 
-    --primary-bg-color: #F5F5F5;
+    /* фон */
+    --primary-bg-color:#FFFFFF;
     --accent-bg-color: #2F303A;
-    --header-bg-color: #FFFFFF;
+    --accent-secondary-bg-color: #2196F3;
+    --base-white-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
 }
 
 body {
     color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
 }
 
 ul {
@@ -37,8 +41,8 @@ ul {
 
 /* Header nav+cont. */
 header{
-    background-color: var(--header-bg-color);
 }
+
 .logo {
     color:var(--logo-black-color);
 }
@@ -68,20 +72,32 @@ header{
 /* Герой банер с заголовком */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--accent-bg-color);
 }
 .hero-title {
-    color:#FFFFFF;
+    color: var(--base-white-color);
 }
-.button {
-    color:#FFFFFF;
-    background: #2196F3;
+
+/* Button */
+
+.button-primary {
+    color: var(--base-white-color);
+    background-color: var(--accent-secondary-bg-color);
 }
-    
+
+.button-secondary {
+    color:var(--title-text-color);
+    background: var(--secondary-bg-color);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--base-white-color);
+    background-color: var(--accent-secondary-bg-color);
+}
+
  /* Особливості (ЗАГОЛОВОК h2 прибрати в CSS) */
 
  .features {
-  background-color: var(--primary-bg-color);
  }
 
 .features .title {
@@ -90,9 +106,8 @@ header{
 
 /* чим ми займаємось */
 .list-works {
-    background-color: var(--primary-bg-color);
-
 }
+
 .list-works .title {
     color: var(--title-text-color);
 }
@@ -106,19 +121,17 @@ header{
     color: var(--title-text-color);
 }
 .team-igor {
-    background-color: white;
+    background-color: var(--base-white-bg-color);
 }
 .team-olga {
-    background-color: white;
+    background-color: var(--base-white-bg-color);
 }
 .team-mukola {
-    background-color: white;
+    background-color: var(--base-white-bg-color);
 }
 .team-muhaylo {
-    background-color: white;
+    background-color: var(--base-white-bg-color);
 }
-
-
 
 /* Подвал  */
 
@@ -127,19 +140,34 @@ footer {
 }
 
 .logo-footer {
-    color: #FFFFFF;
+    color: var(--base-white-color);
 }
 .logo-footer span {
     color: var(--accent-text-color);
 }
 .footer-address {
-    color: #FFFFFF;
+    color: var(--base-white-color);
 }
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
 }
 
+/* Портфолио */
+.main-portfolio {
+    background-color: var(--primary-bg-color);
+}
 
+.list-menu {
+}
+
+.list-filter {
+
+}
+
+.list-filter .title {
+    color: var(--title-text-color);
+
+}
 
 
 
