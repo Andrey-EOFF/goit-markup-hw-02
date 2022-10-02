@@ -1,11 +1,33 @@
+/* цвет остновного текста #212121 */
+/* вторичный цвет текста  #757575 */
+
+/* хеадер фон background: #FFFFFF; */
+/* основной фон background: #F5F5F5; */
+/* фон команда background: #F5F4FA; */
+/* футер фон background: #2F303A; */
+
+
+
+/* синий цвет кнопки и Веб #2196F3 */
+/* белый #212121 */
+/* текст с прозрачн  color: rgba(255, 255, 255, 0.6); */
+/* цвет остновного текста #212121 */
+
+
 
 :root {
     --primary-text-color:#757575;
-    --title-text-color: #212121;
+    --title-text-color:#212121;
+    --accent-text-color:#2196F3;
+    --logo-black-color:#000000;
+
+    --primary-bg-color: #F5F5F5;
+    --accent-bg-color: #2F303A;
+    --header-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
 }
 
 body {
-    background-color: #FFFFFF;
     color: var(--primary-text-color);
 }
 
@@ -13,29 +35,34 @@ ul {
     list-style: none;
 }
 
-   
 /* Header nav+cont. */
-
+header{
+    background-color: var(--header-bg-color);
+}
 .logo {
-    color:#000000;
+    color:var(--logo-black-color);
 }
 .logo span {
-    color:#2196F3 ;
+    color: var(--accent-text-color);
 }
 
 .site-nav a {
-   color: #212121;
+   color: var(--title-text-color);
 }
 
 .contact-nav a {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
-.site-nav :hover, .site-nav :focus {
-    color: #2196F3;
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-text-color);
 }
+.site-nav .link-current {
+    color: var(--accent-text-color);
+}
+
 .contact-nav :hover, .contact-nav :focus {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 /* Герой банер с заголовком */
@@ -53,34 +80,57 @@ ul {
     
  /* Особливості (ЗАГОЛОВОК h2 прибрати в CSS) */
 
- .section {
-  background: #F5F5F5;
+ .features {
+  background-color: var(--primary-bg-color);
  }
 
-.section-title {
-    color: #212121;
+.features .title {
+    color: var(--title-text-color);
 }
 
 /* чим ми займаємось */
+.list-works {
+    background-color: var(--primary-bg-color);
 
-
-/* Наша команда */
-
-.section-team {
-    background-color: #F5F4FA
 }
+.list-works .title {
+    color: var(--title-text-color);
+}
+
+/* наша команда */
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.team .title {
+    color: var(--title-text-color);
+}
+.team-igor {
+    background-color: white;
+}
+.team-olga {
+    background-color: white;
+}
+.team-mukola {
+    background-color: white;
+}
+.team-muhaylo {
+    background-color: white;
+}
+
+
 
 /* Подвал  */
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--accent-bg-color);
 }
 
-.logo  {
+.logo-footer {
     color: #FFFFFF;
 }
-.logo span {
-    color: #2196F3;
+.logo-footer span {
+    color: var(--accent-text-color);
 }
 .footer-address {
     color: #FFFFFF;
@@ -92,19 +142,6 @@ footer {
 
 
 
-/* цвет остновного текста #212121 */
-/* вторичный цвет текста  #757575 */
 
-/* хеадер фон background: #FFFFFF; */
-/* основной фон background: #F5F5F5; */
-/* фон команда background: #F5F4FA; */
-/* футер фон background: #2F303A; */
-
-
-
-/* синий цвет кнопки и Веб #2196F3 */
-/* белый #212121 */
-/* текст с прозрачн  color: rgba(255, 255, 255, 0.6); */
-/* цвет остновного текста #212121 */
 
 
